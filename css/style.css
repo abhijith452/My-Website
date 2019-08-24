@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Nav*/
+
+nav {
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin: 2rem;
+    color: white;
+}
+.logo a {
+    text-emphasis: none;
+    color: rgb(226, 226, 226);
+    font-family: 'Don Quixote';
+    font-size: 2.3rem;
+    list-style: none;
+}
+.logo a:hover {
+    color: rgb(255, 255, 255);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    margin: 2rem;
+    font-family: 'Montserrat';
+    font-size: .9rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: rgb(139, 139, 139);
+}
+
+/* Introduction */
+
+.intro {
+    background-color: #141414;
+}
+.intro .col-md-4 img {
+    width: 92%;
+    margin-top: 3.8rem; 
+    margin-bottom: 7rem;
+}
+.intro .col-md-2 svg {
+    text-decoration: none;
+    width: 35%;
+    margin-top: 11rem; 
+    margin-left: 3rem;
+    fill: rgb(255, 0, 0); 
+}
+.intro .col-md-6 h2 {
+    color: rgb(194, 194, 194);
+    font-family: 'Montserrat';
+    margin-bottom: 1.5rem; 
+    font-style: italic;
+    margin-top: 4.5rem; 
+
+}
+.intro .col-md-6 h3 {
+    color: rgb(170, 170, 170);
+    font-family: 'Montserrat';
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+.intro .col-md-6 p {
+    color: rgb(129, 129, 129);
+    font-family: 'Montserrat';
+    font-style: italic;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #141414;
+}
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .col-md-5 {
+    margin-left: -5rem;
+   
+}
+footer .col-md-3 {
+    margin-right: -5rem;
+    color: rgb(143, 143, 143);
+   
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+  
+}
+
+footer svg {
+    width: 30%;
+    
+}
