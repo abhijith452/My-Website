@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background-color: #141414;
+}
 /*Nav*/
 
 nav {
@@ -22,18 +24,19 @@ nav {
     font-family: 'Don Quixote';
     font-size: 2.3rem;
     list-style: none;
+    text-decoration: none;
 }
 .logo a:hover {
     color: rgb(255, 255, 255);
 }
 nav ul {
+
     list-style: none;
     display: flex;
     flex-direction: row;
     
 }
 nav ul li a{
-    list-style: none;
     text-decoration: none;
     margin: 2rem;
     font-family: 'Montserrat';
@@ -41,6 +44,10 @@ nav ul li a{
     font-style: italic;
     letter-spacing: 2px;
     color: rgb(139, 139, 139);
+}
+.links:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 /* Introduction */
@@ -113,3 +120,30 @@ footer svg {
     width: 30%;
     
 }
+
+
+
+/* Projects Page */
+
+
+.projects {
+    background-color: #141414;
+    padding-bottom: 2.2rem; 
+}
+.projects .row{
+    margin-top: 2rem; 
+    
+}
+
+.projects .col-md-5 .card {   
+   background-image: linear-gradient(rgb(53, 53, 53),rgb(26, 26, 26));
+   width: 90%;
+   height: 195px;
+}
+.projects .col-md-5 .card h5 {   
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-top: 2rem; 
+}    

@@ -1,0 +1,11 @@
+.projects {
+    background-color: #141414;
+}
+.projects .row{
+    margin: 2rem; 
+    border: 1px red solid;
+}
+.projects .card {
+    width: 80%;
+    
+}
