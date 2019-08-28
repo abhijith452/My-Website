@@ -221,3 +221,59 @@ footer svg:hover {
     font-size: .8rem;
     margin-bottom: 1.2rem;
 }
+
+
+
+/*Contact Me Page*/
+
+
+.contact h3 {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size :  1.8rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    opacity: 0;
+    position: relative;
+    animation: text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+span {
+    color: yellow;
+}
+.contact form input, .contact form textarea{
+    color: aliceblue;
+    border: 0;
+    background-color: #141414;
+    border-bottom: 2px rgba(255, 255, 255, 0.397) solid;
+    width: 35rem;
+    margin-top: 1.5rem;
+    opacity: 0;
+    position: relative;
+    animation: text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+}
+.contact form button {
+    background-color: yellow;
+    border: 0;
+    border-radius: 5rem;
+    width: 5rem;
+    height: 2rem;
+    color: #141414;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size :  .8rem;
+    font-style: italic;
+    margin-top: 1rem; 
+    margin-bottom: 2rem; 
+    opacity: 0;
+    position: relative;
+    animation: text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
