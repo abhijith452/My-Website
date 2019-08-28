@@ -168,18 +168,56 @@ footer svg:hover {
 }
 .projects .row{
     margin-top: 2rem; 
+    margin-bottom: 2rem;
     
 }
+.projects .card {
+    width: 80%;
+    border: 0;
+    background-image: linear-gradient(135deg,#17ECFC,rgb(94, 34, 235));
+    position: relative;
+    opacity: 0;
+    border-radius: 20px;
+    animation: cardani 2s .5s forwards;
 
-.projects .col-md-5 .card {   
-   background-image: linear-gradient(rgb(53, 53, 53),rgb(26, 26, 26));
-   width: 90%;
-   height: 195px;
 }
-.projects .col-md-5 .card h5 {   
-    color: rgb(255, 255, 255);
+@keyframes cardani{
+    0% {top: 5rem; opacity: 0;}
+    100%{top: 0; opacity: 1;}
+}
+.projects .col-md-4:hover {
+    animation: cardani2;
+    animation-duration: .5s;
+    animation-fill-mode: forwards; 
+    opacity: 1;
+}
+@keyframes cardani2 {
+    0% {top: 0;}
+    100%{top: -1.2rem; }
+}
+.projects i {
+    margin: 2rem;
+}
+.projects .card h5 {
     font-family: 'Montserrat';
-    font-size: 1.8rem;
+    font-size :  1.5rem;
+    font-weight: bold;
     font-style: italic;
-    margin-top: 2rem; 
-}    
+    color: white;
+    margin-bottom: 1.2rem;
+}
+.projects .card p {
+    font-family: 'Montserrat';
+    font-size :  .8rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.589);
+    margin-bottom: 1.2rem;
+}
+.projects .card a{ 
+    background-image: linear-gradient(rgb(255, 213, 0),#FFE877);
+    border:0;
+    border-radius: 20px; 
+    color: black;
+    font-size: .8rem;
+    margin-bottom: 1.2rem;
+}
