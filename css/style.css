@@ -5,6 +5,7 @@
 }
 body {
     background-color: #141414;
+    overflow-x: hidden;
 }
 /*Nav*/
 
@@ -50,6 +51,18 @@ nav ul li a{
 .links:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+.burger {
+    margin-top: -10px;
+    display: none;
+
+}
+.burger div{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 10px; 
 }
 
 /* Introduction */
