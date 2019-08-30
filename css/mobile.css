@@ -8,6 +8,7 @@ body {
         display: block;
         margin-right: 2rem; 
         cursor: pointer;
+        z-index: 2;
     
     }
     body {
@@ -16,9 +17,9 @@ body {
     .nav-links {
         position: absolute;
         right: 0;
-        height: 92vh;
-        top: 8vh;
-        background-color: rgb(0, 0, 0);
+        height: 110vh;
+        top: 15vh;
+        background-color: #141414;
         z-index: 1;
         display: flex;
         flex-direction: column;
@@ -47,7 +48,15 @@ body {
         margin-right: 2rem;
         
     }
-    
+    .toggle .line1{
+     transform: rotate(-45deg) translate(-6.8px,8px);
+    }
+    .toggle .line2{
+        opacity: 0;
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-6.8px,-8px);
+    }
 }
 @media only screen and (max-width: 768px){
 

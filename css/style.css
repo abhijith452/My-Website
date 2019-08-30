@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+@font-face{
+    src: url(../fonts/Don_Quixote.ttf);
+    font-family: 'Don Quixote';
 }
 body {
     background-color: #141414;
