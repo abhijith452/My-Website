@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     
     .burger {
         margin-top: -10px;
@@ -39,15 +39,6 @@ body {
     .intro svg {
         display: none;
     }
-    .socials {
-        margin-left: 5rem;
-    }
-  
-    .copyright {
-        font-size: .5rem;
-        margin-right: 2rem;
-        
-    }
     .toggle .line1{
      transform: rotate(-45deg) translate(-6.8px,8px);
     }
@@ -57,14 +48,68 @@ body {
     .toggle .line3{
         transform: rotate(45deg) translate(-6.8px,-8px);
     }
-}
-@media only screen and (max-width: 768px){
-
+    .intro .row {
+        margin-left: auto; 
+        margin-right: auto; 
+        
+        text-align: center;
+    }
+    .intro .col-md-4 img{
+        margin-top: 1;
+        margin-bottom: 2rem;
+    }
+    .intro .col-md-6 h2{
+        margin-top: 0;
+        
+    }
+    .intro .col-md-6 h3{
+        font-size: 1.4rem;
+        
+    }
     
+
+
+/*Prjects Page*/
+
+.projects .col-md-4 {
+    margin-top: 2rem;
+    
+}
+.projects .col-md-4 .card {
+    width: 75%;
+}
+
+/*contact page*/
+.form {
+    border: 1px red solid;
+}
+.contact form input, .contact form textarea{
+    width: 20rem;
+    
+}
+.contact {
+    margin-top: 2rem;
+}
+}
+@media only screen and (max-width: 767px){
+
+    footer {
+        margin-top: 2rem; 
+    }
+    footer .row {
+        text-align: center;
+    }
     footer svg {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 30%;
+        margin-left: 0;
+        margin-bottom: 1rem; 
     }
 
+}
+@media only screen and (max-width: 320px){
+    
+    .contact form input, .contact form textarea{
+        width: 15rem;
+        
+    }
 }
