@@ -176,10 +176,16 @@ footer svg:hover {
 
 /* Projects Page */
 
-
+.pro2 {
+    position: relative;
+    top: 0;
+    display: none;
+   
+}
 .projects {
     background-color: #141414;
     padding-bottom: 2.2rem; 
+  
 }
 .projects .row{
     margin-top: 2rem; 
